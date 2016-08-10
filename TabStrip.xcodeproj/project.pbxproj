@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17702CC61D5B24BA002B5FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702C9B1D5B24BA002B5FAE /* AppDelegate.swift */; };
+		17702CC71D5B24BA002B5FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17702C9C1D5B24BA002B5FAE /* Assets.xcassets */; };
+		17702CC81D5B24BA002B5FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17702C9D1D5B24BA002B5FAE /* LaunchScreen.storyboard */; };
+		17702CC91D5B24BA002B5FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17702C9F1D5B24BA002B5FAE /* Main.storyboard */; };
+		17702CCA1D5B24BA002B5FAE /* Color+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CA11D5B24BA002B5FAE /* Color+Random.swift */; };
+		17702CCB1D5B24BA002B5FAE /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CA21D5B24BA002B5FAE /* Constraints.swift */; };
+		17702CCC1D5B24BA002B5FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17702CA41D5B24BA002B5FAE /* Info.plist */; };
+		17702CCD1D5B24BA002B5FAE /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CA61D5B24BA002B5FAE /* Constraint.swift */; };
+		17702CCE1D5B24BA002B5FAE /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CA71D5B24BA002B5FAE /* ConstraintAttributes.swift */; };
+		17702CCF1D5B24BA002B5FAE /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CA81D5B24BA002B5FAE /* ConstraintDescription.swift */; };
+		17702CD01D5B24BA002B5FAE /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CA91D5B24BA002B5FAE /* ConstraintItem.swift */; };
+		17702CD11D5B24BA002B5FAE /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CAA1D5B24BA002B5FAE /* ConstraintMaker.swift */; };
+		17702CD21D5B24BA002B5FAE /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CAB1D5B24BA002B5FAE /* ConstraintRelation.swift */; };
+		17702CD31D5B24BA002B5FAE /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CAC1D5B24BA002B5FAE /* Debugging.swift */; };
+		17702CD41D5B24BA002B5FAE /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CAD1D5B24BA002B5FAE /* EdgeInsets.swift */; };
+		17702CD51D5B24BA002B5FAE /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CAE1D5B24BA002B5FAE /* LayoutConstraint.swift */; };
+		17702CD61D5B24BA002B5FAE /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CB01D5B24BA002B5FAE /* SnapKit.swift */; };
+		17702CD71D5B24BA002B5FAE /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CB11D5B24BA002B5FAE /* SourceLocation.swift */; };
+		17702CD81D5B24BA002B5FAE /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CB21D5B24BA002B5FAE /* View+SnapKit.swift */; };
+		17702CD91D5B24BA002B5FAE /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CB31D5B24BA002B5FAE /* ViewController+SnapKit.swift */; };
+		17702CDA1D5B24BA002B5FAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CB41D5B24BA002B5FAE /* ViewController.swift */; };
+		17702CDB1D5B24BA002B5FAE /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CB61D5B24BA002B5FAE /* BarPagerTabStripViewController.swift */; };
+		17702CDC1D5B24BA002B5FAE /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CB71D5B24BA002B5FAE /* BarView.swift */; };
+		17702CDD1D5B24BA002B5FAE /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CB81D5B24BA002B5FAE /* BaseButtonBarPagerTabStripViewController.swift */; };
+		17702CDE1D5B24BA002B5FAE /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CB91D5B24BA002B5FAE /* ButtonBarPagerTabStripViewController.swift */; };
+		17702CDF1D5B24BA002B5FAE /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CBA1D5B24BA002B5FAE /* ButtonBarView.swift */; };
+		17702CE01D5B24BA002B5FAE /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CBB1D5B24BA002B5FAE /* ButtonBarViewCell.swift */; };
+		17702CE11D5B24BA002B5FAE /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17702CBC1D5B24BA002B5FAE /* ButtonCell.xib */; };
+		17702CE21D5B24BA002B5FAE /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 17702CBE1D5B24BA002B5FAE /* FXPageControl.m */; };
+		17702CE31D5B24BA002B5FAE /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CBF1D5B24BA002B5FAE /* IndicatorInfo.swift */; };
+		17702CE41D5B24BA002B5FAE /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CC01D5B24BA002B5FAE /* PagerTabStripBehaviour.swift */; };
+		17702CE51D5B24BA002B5FAE /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CC11D5B24BA002B5FAE /* PagerTabStripError.swift */; };
+		17702CE61D5B24BA002B5FAE /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CC21D5B24BA002B5FAE /* PagerTabStripViewController.swift */; };
+		17702CE71D5B24BA002B5FAE /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CC31D5B24BA002B5FAE /* SegmentedPagerTabStripViewController.swift */; };
+		17702CE81D5B24BA002B5FAE /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CC41D5B24BA002B5FAE /* SwipeDirection.swift */; };
+		17702CE91D5B24BA002B5FAE /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CC51D5B24BA002B5FAE /* TwitterPagerTabStripViewController.swift */; };
+		17702CF01D5B24DB002B5FAE /* HeaderMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CEB1D5B24DB002B5FAE /* HeaderMenuTests.swift */; };
+		17702CF11D5B24DB002B5FAE /* HeaderMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CEB1D5B24DB002B5FAE /* HeaderMenuTests.swift */; };
+		17702CF21D5B24DB002B5FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17702CEC1D5B24DB002B5FAE /* Info.plist */; };
+		17702CF31D5B24DB002B5FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17702CEC1D5B24DB002B5FAE /* Info.plist */; };
+		17702CF41D5B24DB002B5FAE /* HeaderMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CEE1D5B24DB002B5FAE /* HeaderMenuUITests.swift */; };
+		17702CF51D5B24DB002B5FAE /* HeaderMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17702CEE1D5B24DB002B5FAE /* HeaderMenuUITests.swift */; };
+		17702CF61D5B24DB002B5FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17702CEF1D5B24DB002B5FAE /* Info.plist */; };
+		17702CF71D5B24DB002B5FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17702CEF1D5B24DB002B5FAE /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		175346041D59689F00211C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 175345E71D59689F00211C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175345EE1D59689F00211C9F;
+			remoteInfo = HeaderMenu;
+		};
+		1753460F1D5968A000211C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 175345E71D59689F00211C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175345EE1D59689F00211C9F;
+			remoteInfo = HeaderMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		175345EF1D59689F00211C9F /* TabStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		175346031D59689F00211C9F /* TabStrip.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabStrip.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1753460E1D5968A000211C9F /* TabStrip.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabStrip.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17702C9B1D5B24BA002B5FAE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17702C9C1D5B24BA002B5FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17702C9E1D5B24BA002B5FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17702CA01D5B24BA002B5FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17702CA11D5B24BA002B5FAE /* Color+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Random.swift"; sourceTree = "<group>"; };
+		17702CA21D5B24BA002B5FAE /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		17702CA31D5B24BA002B5FAE /* TabStrip-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TabStrip-Bridging-Header.h"; sourceTree = "<group>"; };
+		17702CA41D5B24BA002B5FAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17702CA61D5B24BA002B5FAE /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		17702CA71D5B24BA002B5FAE /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		17702CA81D5B24BA002B5FAE /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		17702CA91D5B24BA002B5FAE /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		17702CAA1D5B24BA002B5FAE /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		17702CAB1D5B24BA002B5FAE /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		17702CAC1D5B24BA002B5FAE /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		17702CAD1D5B24BA002B5FAE /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		17702CAE1D5B24BA002B5FAE /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		17702CAF1D5B24BA002B5FAE /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		17702CB01D5B24BA002B5FAE /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		17702CB11D5B24BA002B5FAE /* SourceLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceLocation.swift; sourceTree = "<group>"; };
+		17702CB21D5B24BA002B5FAE /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		17702CB31D5B24BA002B5FAE /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		17702CB41D5B24BA002B5FAE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17702CB61D5B24BA002B5FAE /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		17702CB71D5B24BA002B5FAE /* BarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		17702CB81D5B24BA002B5FAE /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		17702CB91D5B24BA002B5FAE /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		17702CBA1D5B24BA002B5FAE /* ButtonBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonBarView.swift; sourceTree = "<group>"; };
+		17702CBB1D5B24BA002B5FAE /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		17702CBC1D5B24BA002B5FAE /* ButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		17702CBD1D5B24BA002B5FAE /* FXPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXPageControl.h; sourceTree = "<group>"; };
+		17702CBE1D5B24BA002B5FAE /* FXPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXPageControl.m; sourceTree = "<group>"; };
+		17702CBF1D5B24BA002B5FAE /* IndicatorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorInfo.swift; sourceTree = "<group>"; };
+		17702CC01D5B24BA002B5FAE /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		17702CC11D5B24BA002B5FAE /* PagerTabStripError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerTabStripError.swift; sourceTree = "<group>"; };
+		17702CC21D5B24BA002B5FAE /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		17702CC31D5B24BA002B5FAE /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		17702CC41D5B24BA002B5FAE /* SwipeDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeDirection.swift; sourceTree = "<group>"; };
+		17702CC51D5B24BA002B5FAE /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		17702CEB1D5B24DB002B5FAE /* HeaderMenuTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderMenuTests.swift; sourceTree = "<group>"; };
+		17702CEC1D5B24DB002B5FAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17702CEE1D5B24DB002B5FAE /* HeaderMenuUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderMenuUITests.swift; sourceTree = "<group>"; };
+		17702CEF1D5B24DB002B5FAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		175345EC1D59689F00211C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175346001D59689F00211C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1753460B1D59689F00211C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175345E61D59689F00211C9F = {
+			isa = PBXGroup;
+			children = (
+				17702C9A1D5B24BA002B5FAE /* TabStrip */,
+				17702CEA1D5B24DB002B5FAE /* TabStripTests */,
+				17702CED1D5B24DB002B5FAE /* TabStripUITests */,
+				175345F01D59689F00211C9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		175345F01D59689F00211C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				175345EF1D59689F00211C9F /* TabStrip.app */,
+				175346031D59689F00211C9F /* TabStrip.xctest */,
+				1753460E1D5968A000211C9F /* TabStrip.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17702C9A1D5B24BA002B5FAE /* TabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				17702C9B1D5B24BA002B5FAE /* AppDelegate.swift */,
+				17702C9C1D5B24BA002B5FAE /* Assets.xcassets */,
+				17702C9D1D5B24BA002B5FAE /* LaunchScreen.storyboard */,
+				17702C9F1D5B24BA002B5FAE /* Main.storyboard */,
+				17702CA11D5B24BA002B5FAE /* Color+Random.swift */,
+				17702CA21D5B24BA002B5FAE /* Constraints.swift */,
+				17702CA31D5B24BA002B5FAE /* TabStrip-Bridging-Header.h */,
+				17702CA41D5B24BA002B5FAE /* Info.plist */,
+				17702CA51D5B24BA002B5FAE /* SnapKit */,
+				17702CB41D5B24BA002B5FAE /* ViewController.swift */,
+				17702CB51D5B24BA002B5FAE /* XL */,
+			);
+			path = TabStrip;
+			sourceTree = "<group>";
+		};
+		17702CA51D5B24BA002B5FAE /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				17702CA61D5B24BA002B5FAE /* Constraint.swift */,
+				17702CA71D5B24BA002B5FAE /* ConstraintAttributes.swift */,
+				17702CA81D5B24BA002B5FAE /* ConstraintDescription.swift */,
+				17702CA91D5B24BA002B5FAE /* ConstraintItem.swift */,
+				17702CAA1D5B24BA002B5FAE /* ConstraintMaker.swift */,
+				17702CAB1D5B24BA002B5FAE /* ConstraintRelation.swift */,
+				17702CAC1D5B24BA002B5FAE /* Debugging.swift */,
+				17702CAD1D5B24BA002B5FAE /* EdgeInsets.swift */,
+				17702CAE1D5B24BA002B5FAE /* LayoutConstraint.swift */,
+				17702CAF1D5B24BA002B5FAE /* SnapKit.h */,
+				17702CB01D5B24BA002B5FAE /* SnapKit.swift */,
+				17702CB11D5B24BA002B5FAE /* SourceLocation.swift */,
+				17702CB21D5B24BA002B5FAE /* View+SnapKit.swift */,
+				17702CB31D5B24BA002B5FAE /* ViewController+SnapKit.swift */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		17702CB51D5B24BA002B5FAE /* XL */ = {
+			isa = PBXGroup;
+			children = (
+				17702CB61D5B24BA002B5FAE /* BarPagerTabStripViewController.swift */,
+				17702CB71D5B24BA002B5FAE /* BarView.swift */,
+				17702CB81D5B24BA002B5FAE /* BaseButtonBarPagerTabStripViewController.swift */,
+				17702CB91D5B24BA002B5FAE /* ButtonBarPagerTabStripViewController.swift */,
+				17702CBA1D5B24BA002B5FAE /* ButtonBarView.swift */,
+				17702CBB1D5B24BA002B5FAE /* ButtonBarViewCell.swift */,
+				17702CBC1D5B24BA002B5FAE /* ButtonCell.xib */,
+				17702CBD1D5B24BA002B5FAE /* FXPageControl.h */,
+				17702CBE1D5B24BA002B5FAE /* FXPageControl.m */,
+				17702CBF1D5B24BA002B5FAE /* IndicatorInfo.swift */,
+				17702CC01D5B24BA002B5FAE /* PagerTabStripBehaviour.swift */,
+				17702CC11D5B24BA002B5FAE /* PagerTabStripError.swift */,
+				17702CC21D5B24BA002B5FAE /* PagerTabStripViewController.swift */,
+				17702CC31D5B24BA002B5FAE /* SegmentedPagerTabStripViewController.swift */,
+				17702CC41D5B24BA002B5FAE /* SwipeDirection.swift */,
+				17702CC51D5B24BA002B5FAE /* TwitterPagerTabStripViewController.swift */,
+			);
+			path = XL;
+			sourceTree = "<group>";
+		};
+		17702CEA1D5B24DB002B5FAE /* TabStripTests */ = {
+			isa = PBXGroup;
+			children = (
+				17702CEB1D5B24DB002B5FAE /* HeaderMenuTests.swift */,
+				17702CEC1D5B24DB002B5FAE /* Info.plist */,
+			);
+			path = TabStripTests;
+			sourceTree = "<group>";
+		};
+		17702CED1D5B24DB002B5FAE /* TabStripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17702CEE1D5B24DB002B5FAE /* HeaderMenuUITests.swift */,
+				17702CEF1D5B24DB002B5FAE /* Info.plist */,
+			);
+			path = TabStripUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		175345EE1D59689F00211C9F /* TabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 175346171D5968A000211C9F /* Build configuration list for PBXNativeTarget "TabStrip" */;
+			buildPhases = (
+				175345EB1D59689F00211C9F /* Sources */,
+				175345EC1D59689F00211C9F /* Frameworks */,
+				175345ED1D59689F00211C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabStrip;
+			productName = HeaderMenu;
+			productReference = 175345EF1D59689F00211C9F /* TabStrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		175346021D59689F00211C9F /* TabStripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1753461A1D5968A000211C9F /* Build configuration list for PBXNativeTarget "TabStripTests" */;
+			buildPhases = (
+				175345FF1D59689F00211C9F /* Sources */,
+				175346001D59689F00211C9F /* Frameworks */,
+				175346011D59689F00211C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				175346051D59689F00211C9F /* PBXTargetDependency */,
+			);
+			name = TabStripTests;
+			productName = HeaderMenuTests;
+			productReference = 175346031D59689F00211C9F /* TabStrip.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1753460D1D59689F00211C9F /* TabStripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1753461D1D5968A000211C9F /* Build configuration list for PBXNativeTarget "TabStripUITests" */;
+			buildPhases = (
+				1753460A1D59689F00211C9F /* Sources */,
+				1753460B1D59689F00211C9F /* Frameworks */,
+				1753460C1D59689F00211C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				175346101D5968A000211C9F /* PBXTargetDependency */,
+			);
+			name = TabStripUITests;
+			productName = HeaderMenuUITests;
+			productReference = 1753460E1D5968A000211C9F /* TabStrip.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		175345E71D59689F00211C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = peer;
+				TargetAttributes = {
+					175345EE1D59689F00211C9F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					175346021D59689F00211C9F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 175345EE1D59689F00211C9F;
+					};
+					1753460D1D59689F00211C9F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 175345EE1D59689F00211C9F;
+					};
+				};
+			};
+			buildConfigurationList = 175345EA1D59689F00211C9F /* Build configuration list for PBXProject "TabStrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 175345E61D59689F00211C9F;
+			productRefGroup = 175345F01D59689F00211C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				175345EE1D59689F00211C9F /* TabStrip */,
+				175346021D59689F00211C9F /* TabStripTests */,
+				1753460D1D59689F00211C9F /* TabStripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		175345ED1D59689F00211C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17702CCC1D5B24BA002B5FAE /* Info.plist in Resources */,
+				17702CC91D5B24BA002B5FAE /* Main.storyboard in Resources */,
+				17702CE11D5B24BA002B5FAE /* ButtonCell.xib in Resources */,
+				17702CC71D5B24BA002B5FAE /* Assets.xcassets in Resources */,
+				17702CC81D5B24BA002B5FAE /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175346011D59689F00211C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17702CF61D5B24DB002B5FAE /* Info.plist in Resources */,
+				17702CF21D5B24DB002B5FAE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1753460C1D59689F00211C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17702CF71D5B24DB002B5FAE /* Info.plist in Resources */,
+				17702CF31D5B24DB002B5FAE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		175345EB1D59689F00211C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17702CE71D5B24BA002B5FAE /* SegmentedPagerTabStripViewController.swift in Sources */,
+				17702CE41D5B24BA002B5FAE /* PagerTabStripBehaviour.swift in Sources */,
+				17702CE91D5B24BA002B5FAE /* TwitterPagerTabStripViewController.swift in Sources */,
+				17702CE31D5B24BA002B5FAE /* IndicatorInfo.swift in Sources */,
+				17702CD01D5B24BA002B5FAE /* ConstraintItem.swift in Sources */,
+				17702CDB1D5B24BA002B5FAE /* BarPagerTabStripViewController.swift in Sources */,
+				17702CDC1D5B24BA002B5FAE /* BarView.swift in Sources */,
+				17702CD71D5B24BA002B5FAE /* SourceLocation.swift in Sources */,
+				17702CD21D5B24BA002B5FAE /* ConstraintRelation.swift in Sources */,
+				17702CD61D5B24BA002B5FAE /* SnapKit.swift in Sources */,
+				17702CD31D5B24BA002B5FAE /* Debugging.swift in Sources */,
+				17702CE61D5B24BA002B5FAE /* PagerTabStripViewController.swift in Sources */,
+				17702CD41D5B24BA002B5FAE /* EdgeInsets.swift in Sources */,
+				17702CDD1D5B24BA002B5FAE /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				17702CE01D5B24BA002B5FAE /* ButtonBarViewCell.swift in Sources */,
+				17702CCD1D5B24BA002B5FAE /* Constraint.swift in Sources */,
+				17702CE51D5B24BA002B5FAE /* PagerTabStripError.swift in Sources */,
+				17702CCA1D5B24BA002B5FAE /* Color+Random.swift in Sources */,
+				17702CCB1D5B24BA002B5FAE /* Constraints.swift in Sources */,
+				17702CDA1D5B24BA002B5FAE /* ViewController.swift in Sources */,
+				17702CE21D5B24BA002B5FAE /* FXPageControl.m in Sources */,
+				17702CCE1D5B24BA002B5FAE /* ConstraintAttributes.swift in Sources */,
+				17702CDE1D5B24BA002B5FAE /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				17702CD51D5B24BA002B5FAE /* LayoutConstraint.swift in Sources */,
+				17702CD91D5B24BA002B5FAE /* ViewController+SnapKit.swift in Sources */,
+				17702CE81D5B24BA002B5FAE /* SwipeDirection.swift in Sources */,
+				17702CD81D5B24BA002B5FAE /* View+SnapKit.swift in Sources */,
+				17702CDF1D5B24BA002B5FAE /* ButtonBarView.swift in Sources */,
+				17702CD11D5B24BA002B5FAE /* ConstraintMaker.swift in Sources */,
+				17702CC61D5B24BA002B5FAE /* AppDelegate.swift in Sources */,
+				17702CCF1D5B24BA002B5FAE /* ConstraintDescription.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175345FF1D59689F00211C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17702CF01D5B24DB002B5FAE /* HeaderMenuTests.swift in Sources */,
+				17702CF41D5B24DB002B5FAE /* HeaderMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1753460A1D59689F00211C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17702CF11D5B24DB002B5FAE /* HeaderMenuTests.swift in Sources */,
+				17702CF51D5B24DB002B5FAE /* HeaderMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		175346051D59689F00211C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 175345EE1D59689F00211C9F /* TabStrip */;
+			targetProxy = 175346041D59689F00211C9F /* PBXContainerItemProxy */;
+		};
+		175346101D5968A000211C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 175345EE1D59689F00211C9F /* TabStrip */;
+			targetProxy = 1753460F1D5968A000211C9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17702C9D1D5B24BA002B5FAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17702C9E1D5B24BA002B5FAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		17702C9F1D5B24BA002B5FAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17702CA01D5B24BA002B5FAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		175346151D5968A000211C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		175346161D5968A000211C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		175346181D5968A000211C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/TabStrip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peer.tabstrip;
+				PRODUCT_NAME = TabStrip;
+				SWIFT_OBJC_BRIDGING_HEADER = "TabStrip/TabStrip-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		175346191D5968A000211C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/TabStrip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peer.tabstrip;
+				PRODUCT_NAME = TabStrip;
+				SWIFT_OBJC_BRIDGING_HEADER = "TabStrip/TabStrip-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		1753461B1D5968A000211C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeaderMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peer.HeaderMenuTests;
+				PRODUCT_NAME = TabStrip;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabStrip.app/TabStrip";
+			};
+			name = Debug;
+		};
+		1753461C1D5968A000211C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeaderMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peer.HeaderMenuTests;
+				PRODUCT_NAME = TabStrip;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabStrip.app/TabStrip";
+			};
+			name = Release;
+		};
+		1753461E1D5968A000211C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeaderMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peer.HeaderMenuUITests;
+				PRODUCT_NAME = TabStrip;
+				TEST_TARGET_NAME = HeaderMenu;
+			};
+			name = Debug;
+		};
+		1753461F1D5968A000211C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeaderMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peer.HeaderMenuUITests;
+				PRODUCT_NAME = TabStrip;
+				TEST_TARGET_NAME = HeaderMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		175345EA1D59689F00211C9F /* Build configuration list for PBXProject "TabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175346151D5968A000211C9F /* Debug */,
+				175346161D5968A000211C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		175346171D5968A000211C9F /* Build configuration list for PBXNativeTarget "TabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175346181D5968A000211C9F /* Debug */,
+				175346191D5968A000211C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1753461A1D5968A000211C9F /* Build configuration list for PBXNativeTarget "TabStripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1753461B1D5968A000211C9F /* Debug */,
+				1753461C1D5968A000211C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1753461D1D5968A000211C9F /* Build configuration list for PBXNativeTarget "TabStripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1753461E1D5968A000211C9F /* Debug */,
+				1753461F1D5968A000211C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 175345E71D59689F00211C9F /* Project object */;
+}
